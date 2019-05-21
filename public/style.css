@@ -112,11 +112,13 @@ i {
 .menu_header {
     height: 22vh;
     margin-top: 4vh;
-    background-image: url('./images/mint-large.png');
-    background-size: 20%;
-    background-repeat: no-repeat;
-    background-position: center;
-}   
+    text-align: center;
+}
+
+.header_image {
+    height: 40vh;
+    margin-top: -8vh;
+}
 
 .menu_name {
     font-family: "Poiret One";
