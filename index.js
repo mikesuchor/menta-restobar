@@ -25,4 +25,4 @@ app.get("/dinner", (req, res) => {
     res.sendFile(path.join(__dirname + '/public/dinner.html'));
 })
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(process.env.PORT || port, () => console.log(`Listening on port ${port}`));
