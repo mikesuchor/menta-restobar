@@ -1,7 +1,7 @@
 {
-  "name": "t",
+  "name": "menta-restobar",
   "version": "1.0.0",
-  "description": "",
+  "description": "Menta Restobar Restaurant",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.0"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
