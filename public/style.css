@@ -1,8 +1,6 @@
 :root {
     --green: #90A641;
     --white: #FAFAFA;
-    --light-green: #A4BF41;
-    --pink: #BF2A45;
     --red: #A60321;
     --black: #000;
     --dark-green: #317B00;
@@ -37,7 +35,7 @@ p {
     color: var(--red);
 }
 
-button {
+.hero_button, .footer_button {
     background: var(--red);
     border: none;
     font-family: "Montserrat";
@@ -46,6 +44,14 @@ button {
     padding: 15px;
     margin-top: 2vh;
     margin-bottom: 12vh;
+}
+
+.footer_button {
+    margin-bottom: 0;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .hero {
@@ -170,7 +176,20 @@ i {
 }
 
 .menu_footer i {
-    margin-top: 4vh;
+    margin-top: 2vh;
     color: #666;
     background-color: var(--white);
+}
+
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 12vw;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .hero {
+        background-size: contain;
+    }
 }
