@@ -1,0 +1,174 @@
+:root {
+    --green: #90A641;
+    --white: #FAFAFA;
+    --light-green: #A4BF41;
+    --pink: #BF2A45;
+    --red: #A60321;
+    --black: #000;
+    --dark-green: #317B00;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("./images/tile.jpg");
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+h1 {
+    padding: 32vh 0 10vh 0;
+    font-family: "Poiret One";
+    font-size: 14vh;
+    color: var(--black);
+    text-shadow: 2px 2px var(--black);
+}
+
+p {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 3vh;
+    color: var(--red);
+}
+
+button {
+    background: var(--red);
+    border: none;
+    font-family: "Montserrat";
+    font-size: 1.75vh;
+    color: var(--white);
+    padding: 15px;
+    margin-top: 2vh;
+    margin-bottom: 12vh;
+}
+
+.hero {
+    height: 74vh;
+    text-align: center;
+    background-image: url('./images/mint-large.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.restaurant_title {
+    color: var(--red);
+}
+
+nav {
+    margin: 4vh 0 0 0;
+}
+
+.nav_items {
+    font-family: "Montserrat";
+    font-size: 2.5vh;
+    font-weight: 700;
+    border-top: 2px solid var(--dark-green);  
+    border-bottom: 2px solid var(--dark-green);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav_items li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav_items li a {
+    color: var(--dark-green);
+}
+
+.nav_items li a:hover {
+    color: var(--green);
+}
+
+footer {
+    text-align: center;
+}
+
+i {
+    text-align: center;
+    padding: 1vh;
+    font-size: 4vh;
+    width: 4vh;
+    height: 4vh;
+    background-color: #666;
+    border-radius: 100%;
+    color: var(--white);
+    margin: 2vh 1vh;
+}
+
+.menu {
+    padding-top: 3vh;
+    font-size: 2.5vh;
+}
+
+.menu_header {
+    height: 22vh;
+    margin-top: 4vh;
+    background-image: url('./images/mint-large.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+}   
+
+.menu_name {
+    font-family: "Poiret One";
+    display: table;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid var(--black);
+    margin-bottom: 2vh;
+    background-color: var(--white);
+}
+
+.menu_items {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_items li {
+    list-style-type: none;
+    width: 30vw;
+    padding: 3vh;
+}
+
+.menu_item_title {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 2.5vh;
+    color: var(--red);
+}
+
+.menu_item_description {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 2.25vh;
+    color: var(--black);
+}
+
+.menu_item_price {
+    font-family: "Montserrat";
+    font-size: 2.5vh;
+    color: var(--black);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.menu_footer {
+    height: 20vh;
+    background-color: #666;
+}
+
+.menu_footer i {
+    margin-top: 4vh;
+    color: #666;
+    background-color: var(--white);
+}

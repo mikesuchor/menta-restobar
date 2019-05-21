@@ -1,0 +1,80 @@
+{
+    "breakfast": [
+        {
+            "name": "AGED CHEDDAR GOUGERES",
+            "description": null,
+            "price": "$8"
+        },
+        {
+            "name": "YOGURT AND GRANOLA",
+            "description": "Vegan Coconut Yogurt, Granola, Fruit",
+            "price": "$10"
+        },
+        {
+            "name": "TOAST AND AVOCADO",
+            "description": "Goat Feta, Toasted Seeds",
+            "price": "$12"
+        },
+        {
+            "name": "CLASSIC SOFT SCRAMBLED EGGS",
+            "description": "Ham, Green Onion, Cheddar or Sausage and Cheese Curd or Wild Mushroom and Tarragon or Smoked Salmon",
+            "price": "$14"
+        },
+        {
+            "name": "PANCAKE SOUFFLE",
+            "description": "Whipped Butter, Maple Syrup",
+            "price": "$18"
+        },
+        {
+            "name": "VICTORIA'S BREAKFAST SANDWICH",
+            "description": "Sausage, Fried Egg, Cheddar, Hashbrowns",
+            "price": "$16"
+        },
+        {
+            "name": "CHARRED CABBAGE",
+            "description": "Jalapeno Cream Salad, Mimolette",
+            "price": "$15"
+        },
+        {
+            "name": "TOAST AND JAM",
+            "description": null,
+            "price": "$8"
+        },
+        {
+            "name": "TOAST AND BURRATA",
+            "description": "Apricot, Toasted Hazelnut",
+            "price": "$12"
+        },
+        {
+            "name": "DEEPWATER FARMS KALE SALAD",
+            "description": "Poached Egg, Feta, Pecan, Mustard Dressing",
+            "price": "$12"
+        },
+        {
+            "name": "AREPAS BENEDICT",
+            "description": "Shaved Country Ham or Wilted Kale and Spinach or Smoked Salmon",
+            "price": "$18"
+        },
+        {
+            "name": "FRENCH DOUBLE DIP",
+            "description": "Au Jus, Fries",
+            "price": "$20"
+        },
+        {
+            "name": "VICTORIA'S COMPLETE BREAKFAST PLATE",
+            "description": "Eggs, Sausage, Bacon, Toast, Hashbrowns",
+            "price": "$20"
+        },
+        {
+            "name": "SHRIMP AND GRITS",
+            "description": null,
+            "price": "$20"
+        }
+    ],
+    "dinner": {
+
+    },
+    "cocktails": {
+
+    }
+}
